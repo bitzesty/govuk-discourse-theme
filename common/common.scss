@@ -6159,6 +6159,7 @@ td:last-child, th:last-child {
   vertical-align: top !important;
   cursor: pointer !important;
   -webkit-appearance: none !important;
+  min-height: 38px !important;
 
   h2 {
     font-size: 1em !important;
@@ -6773,7 +6774,7 @@ td.category {
 }
 
 .widget-button.reply-to-post {
-  margin-right: 10px;
+  margin-right: 10px !important;
 }
 
 .notifications-button {
