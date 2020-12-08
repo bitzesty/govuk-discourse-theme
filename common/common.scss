@@ -6360,7 +6360,7 @@ td:last-child, th:last-child {
   }
 
   a:not(.active) {
-    
+
     &:hover,
     &:focus {
       background: #5694ca !important;
@@ -6371,6 +6371,7 @@ td:last-child, th:last-child {
 
 #topic-footer-buttons .btn {
   display: inline-flex !important;
+  flex: 0;
 }
 
 .topic-notifications-button,
@@ -6503,8 +6504,8 @@ a:active, a:focus {
     background-color: #f3f2f1 !important;
     box-shadow: 0 2px 0 #929191 !important;
 
-    &:active, 
-    &:hover, &:link, 
+    &:active,
+    &:hover, &:link,
     &:visited {
       color: #0b0c0c !important;
     }
@@ -6756,4 +6757,28 @@ td.category {
 
 .search-container .search-bar .search-cta {
   margin-bottom: 0 !important;
+}
+
+#reply-control .save-or-cancel button {
+  white-space: nowrap !important;
+}
+
+.topic-list .main-link a.title {
+  display: inline !important;
+}
+
+#topic-footer-buttons .topic-footer-main-buttons .topic-admin-menu-button-container>span:not(:empty) {
+  margin: 0.7em 0.5em 0.5em 0 !important;
+}
+
+.widget-button.reply-to-post {
+  margin-right: 10px;
+}
+
+.notifications-button {
+  display: block !important;
+}
+
+#topic-progress {
+  box-shadow: 0 2px 0 #d1f0ff !important;
 }
