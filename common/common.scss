@@ -6799,4 +6799,9 @@ body:not(.admin-interface) {
       margin: 0;
     }
   }
+
+  .d-header-icons .d-icon,
+  #banner .close .d-icon {
+    color: #0b0c0c !important;
+  }
 }
