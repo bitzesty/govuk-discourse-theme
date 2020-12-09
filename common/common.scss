@@ -6785,4 +6785,18 @@ body:not(.admin-interface) {
   #topic-progress {
     box-shadow: 0 2px 0 #d1f0ff !important;
   }
+
+  .select-kit-header.period-chooser-header {
+    width: 260px !important;
+
+    h2 {
+      margin: 6px 0 0 !important;
+      vertical-align: top !important;
+    }
+
+    svg {
+      height: 1.2rem !important;
+      margin: 0;
+    }
+  }
 }
